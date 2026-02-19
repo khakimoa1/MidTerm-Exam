@@ -13,11 +13,15 @@ import java.util.Scanner;
  * @author sivagamasrinivasan
  * 
  */
+enum Operations1 {"PLUS", "MINUS", "TIMES", "DIVIDE"};
+//ran out of time
 public class ArithmeticBase 
 {
+    
  public double x,y;
     double calculate(double x, double y) 
         {
+            
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter arithmetic operation to Perform: ");
         String s= sc.next();
