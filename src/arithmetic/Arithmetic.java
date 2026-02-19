@@ -28,7 +28,8 @@ public class Arithmetic
         Scanner in= new Scanner(System.in);
         int n= in.nextInt();
         int m= in.nextInt();
-        double result = r.calculate(m,n);
+        int z= in.nextInt();
+        double result = r.calculate(m,n,z);
         System.out.println("result :" +result); 
     
     }
